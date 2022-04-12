@@ -29,10 +29,10 @@ class _OverflowBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(builder: (context, constraints) {
-      final maxHeight = math.max(constraints.maxHeight, 840.0);
+      final maxHeight = math.max(constraints.maxHeight, 600.0);
       final maxWidth = math.max(constraints.maxWidth, 1000.0);
       return OverflowBox(
-        minHeight: 840,
+        minHeight: 600,
         maxHeight: maxHeight,
         minWidth: 1000,
         maxWidth: maxWidth,
